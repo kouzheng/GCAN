@@ -2,6 +2,7 @@ Identification of Pandemic Risk for Avian Influenza Virus with Graph Cross Atten
 
 ## Create environment
 conda env create -f environment.yml
+
 conda activate GCAN-Flu
 
 ## Run
