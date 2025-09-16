@@ -214,16 +214,14 @@ class GCAN(nn.Module):
                                 heads = nheads,
                                 dropout = self.dropout,
                                 negative_slope = self.alpha,
-                                geneflow_channels = self.geneflow_out,
-                                share_weights = True
+                                geneflow_channels = self.geneflow_out
                                 )
         self.conv2 = GCAConv(in_channels = nheads * nhid,
                                 out_channels = 1,
                                 heads = 1,
                                 dropout = self.dropout,
                                 negative_slope = self.alpha,
-                                geneflow_channels = 1,
-                                share_weights = True
+                                geneflow_channels = 1
                                 )
     def forward(self, x ,  edge_index, geneflow):
         x = self.cj(x)
