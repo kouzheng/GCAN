@@ -352,19 +352,13 @@ def get_split3(data_y , p):
 
 import glob
 import os
-# lr_list = [ 0.01, 0.005 ]
-# dp_list = [ 0.6 ]
-# heads_list = [8, 4, 2, 1 ]
-# hid_list = [ 64 , 32  , 16 , 8]
-# wd_list = [ 0.001, 0.0005 ]
-# geneflow_list = [ 64 ,32 , 16  , 8]
+lr_list = [ 0.01, 0.005 ]
+dp_list = [ 0.6 ]
+heads_list = [8, 4, 2, 1 ]
+hid_list = [ 64 , 32  , 16 , 8]
+wd_list = [ 0.001, 0.0005 ]
+geneflow_list = [ 64 ,32 , 16  , 8]
 
-lr_list = [ 0.01 ]
-dp_list = [ 0.2 ]
-heads_list = [ 1 ]
-hid_list = [  64]
-wd_list = [ 0.001 ]
-geneflow_list = [32]
 
 hyper_list = []
     
