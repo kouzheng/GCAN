@@ -9,7 +9,8 @@ conda activate GCAN-Flu
 python model.py
 
 
-Ref:Identification of Pandemic Risk for Avian Influenza Virus with Graph Cross Attention Networks
+Ref:  Identification of Pandemic Risk for Avian Influenza Virus with Graph Cross Attention Networks
+
 IEEE Journal of Biomedical and Health Informatics
 2025 | Journal article
 DOI: 10.1109/JBHI.2025.3625980
